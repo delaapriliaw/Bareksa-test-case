@@ -50,7 +50,7 @@ class LoginStepDefinition {
 	@Given("I am on the login page")
 	def I_am_on_the_login_page() {
 		/* println "I am on the login page" */
-		Mobile.startApplication('C:\\Users\\Rama Agung\\Downloads\\Bareksa - Super App Investasi_3.4.0_apkcombo.com.apk', true)
+		Mobile.startApplication('C:\\Users\\Dela Aprilia\\Downloads\\Bareksa - Super App Investasi_3.4.0_apkcombo.com.apk', true)
 		Mobile.tap(findTestObject('Object Repository/Login-1/android.widget.Button - Login'), 0)
 	}
 
